@@ -24,6 +24,7 @@
   | Брокер | 12,2 слова | 2% | 6,3 | SHIP |
 
   Проверка на шаблонные обороты (anti-AI): 0 в обеих.
+- Ответ 4 на стр. 11 и причина 04 проверены по Указу Дубая № 43 от 2013 года (ст. 1 и 3), источник стоит в подвале стр. 07.
 - Цифры перепроверены 15.10: с 13.10 новых выпусков нет ни у одного источника ([research/yield-map-refresh-2026-10-15.md](research/yield-map-refresh-2026-10-15.md)).
 
 ## 🧭 Воронка
@@ -70,8 +71,6 @@ email д30, д45 → раз в квартал. Для тех, кто ответ�
 |---|---|---|---|
 | ![B02](ads/creatives/2_test/NEMAX_ad_B02_listing_contract_4x5.png) | ![B03](ads/creatives/2_test/NEMAX_ad_B03_four_sources_4x5.png) | ![B04](ads/creatives/2_test/NEMAX_ad_B04_transfer_day_4x5.png) | ![B06](ads/creatives/2_test/NEMAX_ad_B06_three_questions_4x5.png) |
 
-⚠️ Кадр `B05` показывает таблицу в версии 14.10 (11 страниц); цифры в ней те же.
-
 ## 📱 Контент для Instagram
 
 [instagram/IG_CONTENT_BASE_BUYER.md](instagram/IG_CONTENT_BASE_BUYER.md): опоры, банк тем, план на первые четыре недели, идеи рилсов.
@@ -83,9 +82,8 @@ email д30, д45 → раз в квартал. Для тех, кто ответ�
 
 ## Что ещё не сделано
 
-- обложка карты: нужна картинка;
+- обложка карты: картинку ставит Ирина;
 - страницы `/yield-map` и `/thank-you/yield-map` и PDF в Webflow Assets;
 - кампания Meta в кабинете, конверсия `Yield map lead` в пикселе;
 - отправка писем: Brevo на бесплатном тарифе не даёт автоматизаций;
-- формулировку «use the property they are buying as security» подтвердить у Макса;
-- правило индекса аренды (ответ 4 на стр. 11) проверить по первоисточнику.
+- формулировку «use the property they are buying as security» подтвердить у Макса.

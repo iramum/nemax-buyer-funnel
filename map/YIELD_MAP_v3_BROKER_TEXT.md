@@ -101,7 +101,7 @@ Ask whether the quoted rent comes from a new tenancy or a renewal. If the unit h
 WHAT TO TELL YOUR BUYER
 If the unit is let, plan on the current rent until the contract ends. If it is empty, check rents agreed recently for similar units in the same building.
 
-Note: no figure is quoted on this page. The April 2026 split between new tenancies and renewals is no longer published.
+Source: Dubai Decree No. 43 of 2013, Articles 1 and 3: the maximum rent increase at renewal is set by the RERA rental index.
 
 ## 08 / 05 The average rests on a few buildings
 A community yield is an average. Some averages are based on more than 200 buildings, others on fewer than 40.
