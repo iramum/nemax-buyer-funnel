@@ -1,17 +1,33 @@
 # NEMAX: воронка покупателя — Dubai Yield Map, реклама, письма, контент
 
-Обновлено 15.10.2026. Зеркало брокерской воронки ([nemax-broker-ads](https://github.com/iramum/nemax-broker-ads)),
+Обновлено 12.11.2026. Зеркало брокерской воронки ([nemax-broker-ads](https://github.com/iramum/nemax-broker-ads)),
 но для конечного покупателя: человека, который покупает квартиру в Дубае как вложение.
 Любой файл скачивается так: открыть его → кнопка **Download raw file** (стрелка вниз справа сверху).
 Скачать всё разом: зелёная кнопка **Code** → **Download ZIP**.
 
 ## 🔎 Маше на проверку
 
-1. **Текст карты в Word** — [для покупателя](map/NEMAX-Dubai-Yield-Map-v3-BUYER-for-review-2026-10-15.docx) и [для брокера](map/NEMAX-Dubai-Yield-Map-v3-BROKER-for-review-2026-10-15.docx).
+1. **Текст карты в Word** — [для покупателя](map/NEMAX-Dubai-Yield-Map-v3-BUYER-for-review-2026-11-12.docx) и [для брокера](map/NEMAX-Dubai-Yield-Map-v3-BROKER-for-review-2026-11-12.docx).
    Жёлтым — цифры и даты для сверки. Зелёным — абзацы из плейбука «7 Reasons» дословно. Красным — вопросы до выпуска.
-2. **Как сверстано** — [PDF для покупателя](map/NEMAX-Dubai-Yield-Map-v3-BUYER-DRAFT-2026-10-15.pdf) и [для брокера](map/NEMAX-Dubai-Yield-Map-v3-BROKER-DRAFT-2026-10-15.pdf), по 12 страниц.
+2. **Как сверстано** — [PDF для покупателя](map/NEMAX-Dubai-Yield-Map-v3-BUYER-DRAFT-2026-11-12.pdf) и [для брокера](map/NEMAX-Dubai-Yield-Map-v3-BROKER-DRAFT-2026-11-12.pdf), по 12 страниц.
 3. **По каким правилам написан текст** — [STYLE_MASHA.md](STYLE_MASHA.md): разбор языка плейбука «7 Reasons» и что из него взято.
 4. **Откуда вопросы на стр. 11** — [research/REDDIT_QUESTIONS.md](research/REDDIT_QUESTIONS.md).
+
+## Что изменилось 12.11
+
+- **Цифры на ноябрь 2026** ([research/yield-map-refresh-2026-11-12.md](research/yield-map-refresh-2026-11-12.md)):
+  Listings = Bayut Q3 2026 (сентябрь), Registered = Property Monitor ноябрь 2026 (страница Engel & Völkers от 12.11),
+  DLD data = июньский датасет. Колонка «E&V Aug» снята: в таблице три источника, а не четыре.
+  ⚠️ Ноябрьский Property Monitor выше листингов во всех районах, раньше было наоборот. Выгрузку стоит перепроверить.
+- Новые примеры: причина 01 = Jumeirah Village Circle 7.10% / 6.3% (сентябрь), причина 02 = Downtown Dubai 5.10% / 7.43%,
+  причина 06 = смешанный Q3 и 136,100 домов в 2027 (пресса).
+- Текст приведён к правилам ноября: объект держит ADGM SPV, NEMAX co-finances **вместо** банка и не доплачивает
+  к ипотеке (взнос по ипотеке только из своих средств), объект с golden visa в SPV не ставится,
+  дисклеймер «NEMAX structures asset-backed co-financing secured by real estate and does not operate as a retail bank» на стр. 12.
+- Те же правки в письмах (2, 3, 4, 6), Purchase Check, рекламе (B02 = AED 12,000, B03 = «3 sources», B05 = новая таблица) и блоках сайта.
+- Страницы `/yield-map` и `/thank-you/yield-map` собраны в Webflow черновиками, не опубликованы.
+- Instagram: новая сетка 8 постов с 19.11 (ЧТ + СБ) или с 30.11 (ПН + СР).
+- B2: покупатель SHIP (6), брокер 8, из них 4 балла дают оглавление и строка источников. Anti-AI: 0 в обеих.
 
 ## Что изменилось 15.10
 
@@ -41,7 +57,8 @@
 | Файл | Что это |
 |---|---|
 | [YIELD_MAP_v3_BUYER_TEXT.md](map/YIELD_MAP_v3_BUYER_TEXT.md) / [BROKER](map/YIELD_MAP_v3_BROKER_TEXT.md) | Текст по страницам |
-| [research/yield-map-refresh-2026-10-13.md](research/yield-map-refresh-2026-10-13.md) | Откуда каждая цифра: старое → новое, источник, дата, уровень |
+| [research/yield-map-refresh-2026-11-12.md](research/yield-map-refresh-2026-11-12.md) | **Актуально, 12.11:** откуда каждая цифра таблицы, источник, дата, уровень |
+| [research/yield-map-refresh-2026-10-13.md](research/yield-map-refresh-2026-10-13.md) | Октябрь: старое → новое |
 | [research/yield-map-refresh-2026-10-15.md](research/yield-map-refresh-2026-10-15.md) | Перепроверка 15.10 |
 
 ## ✅ Ступень 2: Purchase Check
@@ -67,9 +84,9 @@ email д30, д45 → раз в квартал. Для тех, кто ответ�
 
 **Для теста** ([ads/creatives/2_test](ads/creatives/2_test)):
 
-| `B02_listing_contract` | `B03_four_sources` | `B04_transfer_day` | `B06_three_questions` |
+| `B02_listing_contract` | `B03_three_sources` | `B04_transfer_day` | `B06_three_questions` |
 |---|---|---|---|
-| ![B02](ads/creatives/2_test/NEMAX_ad_B02_listing_contract_4x5.png) | ![B03](ads/creatives/2_test/NEMAX_ad_B03_four_sources_4x5.png) | ![B04](ads/creatives/2_test/NEMAX_ad_B04_transfer_day_4x5.png) | ![B06](ads/creatives/2_test/NEMAX_ad_B06_three_questions_4x5.png) |
+| ![B02](ads/creatives/2_test/NEMAX_ad_B02_listing_contract_4x5.png) | ![B03](ads/creatives/2_test/NEMAX_ad_B03_three_sources_4x5.png) | ![B04](ads/creatives/2_test/NEMAX_ad_B04_transfer_day_4x5.png) | ![B06](ads/creatives/2_test/NEMAX_ad_B06_three_questions_4x5.png) |
 
 ## 📱 Контент для Instagram
 
@@ -78,12 +95,13 @@ email д30, д45 → раз в квартал. Для тех, кто ответ�
 ## 🌐 Страницы сайта
 
 [site/](site/): блоки для `/yield-map` и `/thank-you/yield-map` (Webflow Embed). Форма на странице
-нативная, её поля расписаны в комментарии блока `22c`. Обе страницы пока не опубликованы.
+нативная, её поля расписаны в комментарии блока `22c`. 12.11 обе страницы собраны в Webflow черновиками, не опубликованы.
 
 ## Что ещё не сделано
 
 - обложка карты: картинку ставит Ирина;
-- страницы `/yield-map` и `/thank-you/yield-map` и PDF в Webflow Assets;
+- публикация `/yield-map` и `/thank-you/yield-map` (canonical, адрес уведомлений формы, обложка, два PDF в Webflow Assets);
 - кампания Meta в кабинете, конверсия `Yield map lead` в пикселе;
 - отправка писем: Brevo на бесплатном тарифе не даёт автоматизаций;
-- формулировку «use the property they are buying as security» подтвердить у Макса.
+- вычитка Маши;
+- можно ли «ипотека банка + капитал NEMAX на взнос» — вопрос Максу, до ответа этот ход нигде не предлагается.

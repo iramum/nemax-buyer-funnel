@@ -6,7 +6,7 @@
 **Вёрстка:** Figma DS `qubi5qm5a1yioRUOaEaak9`, страница `1515:317`, второй ряд y=2400 (v2 на y=0 не тронут). 11 страниц.
 **Кнопка:** `https://apply.nemax-finance.com/?utm_source=yield-map&utm_medium=pdf&utm_campaign=yield-map-q4&utm_content=cta-discuss-deal`
 
-Абзацы про NEMAX (вступление, финал) — дословно Машины. 🔴 Её формула «use the property they are buying as security» до сих пор не подтверждена у Макса (см. память nemax-week-0510-built).
+Абзацы про NEMAX (вступление, финал) — Машины, кроме одной фразы: 12.11.2026 «use the property … as security» заменена каноном сайта «held by an ADGM SPV … secured by the property» (правило 19.10, память nemax-spv-holds-not-nemax). Причина 07 и вопрос 6 приведены к правилам 12.11 (взнос из своих средств, визовый объект не в SPV).
 
 ---
 
@@ -17,7 +17,7 @@ Why the yield your buyer sees may not be the yield they get
 ## 02 INTRO
 Your buyer is looking at an apartment as an investment. Before they commit, they ask a simple question: what will it earn?
 
-You check a property portal and find a yield of 8.2%. A market report shows 6.7% for the same area. A third source gives a different number again.
+You check a property portal and find a yield of 7.1%. A market report shows 6.3% for the same area. A third source gives a different number again.
 
 If your buyer plans on the higher number and the rent comes in lower, they may lose trust in the purchase. Some buyers stop the deal at this point.
 
@@ -37,16 +37,16 @@ Contents:
 → When to contact NEMAX Finance / 12
 
 About card:
-NEMAX Finance provides short-term, asset-backed capital for real estate transactions in the UAE. We co-finance purchases with the buyer and use the property they are buying, or one they already own, as security for the funding.
+NEMAX Finance provides short-term, asset-backed capital for real estate transactions in the UAE. We co-finance purchases with the buyer. The property is held by an ADGM SPV, a separate company set up for this one deal, and the co-financing is secured by the property.
 Every yield in this guide comes from a named third-party source. None of them is a NEMAX return.
 
 ## 03 THE MAP
 Apartment yields by community
 Each figure is shown as its source published it. An empty cell means that source did not publish a figure for that community. The columns are not averaged, because each source measures in a different way.
 
-Таблица — вариант A из `04_RESEARCH:/market_reports/yield-map-refresh-2026-10-13.md` §3.1 (Property Monitor на August 2026).
+Таблица — `04_RESEARCH:/market_reports/yield-map-refresh-2026-11-12.md` §3 (Bayut Q3, Property Monitor Nov 2026, колонка E&V снята). 🔴 Ноябрьский Property Monitor подозрителен (§2.2).
 
-Note: n is the number of buildings behind the DLD figure. Where n is small, the average can move easily. Dubai Investments Park (9.61%) and Dubai Production City (8.18%) appear in only one August source, so they are not included.
+Note: n is the number of buildings behind the DLD figure. Where n is small, the average can move easily. Dubai Investments Park and Dubai Production City are not in every source, so they are not included.
 
 PAST RESULTS, NOT A PROMISE
 These are third-party market figures, published on the dates shown. They are not a NEMAX return, a forecast or an offer. Yields change when rents and prices change, and both changed in 2026.
@@ -54,20 +54,20 @@ These are third-party market figures, published on the dates shown. They are not
 ## 04 / 01 The yield is based on asking prices, not real sales
 Buyers often ask which area gives the highest yield. The answer depends on who counts. Most property portals calculate yield from advertised prices and advertised rents. Bayut says this in its own report: it uses listing prices, not the prices buyers actually paid.
 
-Registered data often shows a lower number. In Dubai Silicon Oasis, listings showed 8.23% in the first half of 2026. Registered data for August 2026 showed 6.69% for the same community.
+Registered data may show a different number. In Jumeirah Village Circle, listings showed a yield of 7.10% in September 2026. Registered data for the same month showed 6.3%.
 
 WHAT TO CHECK
 Ask where the yield figure comes from: listings, registered data or Dubai Land Department records. If the source is not clear, do not use the number to plan income.
 
 WHAT TO TELL YOUR BUYER
-Explain that the listing yield is the highest likely figure, not a plan. Show them the registered figure for the same community and plan on the lower number.
+Explain that the listing yield is not a plan. Show them the registered figure for the same community and plan on the lower of the two.
 
-Sources: Bayut Dubai Sales Market Report H1 2026 (advertised listings) / Property Monitor, August 2026, as published by Engel & Völkers (registered data).
+Sources: Bayut Dubai Sales Market Report Q3 2026 (advertised listings, as of September 2026) / Property Monitor, September 2026, in the Engel & Völkers Dubai Residential Market Report Q3 2026 (registered data).
 
 ## 05 / 02 Different sources give different yields for the same area
-Four well-known sources publish yields for Dubai. They measure at different points of a deal, so their numbers rarely match.
+Several well-known sources publish yields for Dubai. They measure at different points of a deal, so their numbers rarely match.
 
-In Jumeirah Village Circle, one source published 6.36% and another 8.86% in 2026. On an AED 1.5 million apartment, a gap of 2.5 points is AED 37,500 of rent a year.
+In Downtown Dubai, one source published 5.10% and another 7.43% in 2026. On an AED 1.5 million apartment, a gap of more than 2 points is about AED 35,000 of rent a year.
 
 WHAT TO CHECK
 Compare at least two sources for the community before your buyer commits. Note the lowest and the highest figure, not only the one you saw first.
@@ -75,7 +75,7 @@ Compare at least two sources for the community before your buyer commits. Note t
 WHAT TO TELL YOUR BUYER
 Give them the range, not one number. Explain that the real yield on their apartment will depend on the price they pay and the rent they agree.
 
-Sources: Property Monitor, August 2026, as published by Engel & Völkers / dataHabibi, derived from DLD records, June 2026, CC BY 4.0. The AED example is illustrative.
+Sources: Bayut Dubai Sales Market Report Q3 2026 / dataHabibi, derived from DLD records, June 2026, CC BY 4.0. The AED example is illustrative.
 
 ## 06 / 03 The yield does not include costs
 A common question is what the yield is after costs. Published yields are gross. They divide one year of rent by the price. They do not include service charges, empty weeks between tenants or letting fees.
@@ -117,9 +117,9 @@ If the average rests on a few buildings, compare rents in the specific building 
 Source: dataHabibi, Dubai Residential Community Rental Yields, derived from DLD records, June 2026 snapshot, Mendeley Data, CC BY 4.0.
 
 ## 09 / 06 Prices and rents are both changing
-Yield is rent divided by price. In the second quarter of 2026, Dubai prices fell by 2.5% and rents also fell by 2.5%, compared with the first quarter. In the third quarter, average apartment prices fell by a further 4.8%. For the same homes, the fall was 1.7%.
+Yield is rent divided by price. In the second quarter of 2026, Dubai prices and rents both fell by about 2.5%, compared with the first quarter. In the third quarter, the picture was mixed. One consultancy recorded a small rise in prices, and rents returned to their March level. Another recorded a 4.8% fall in average apartment prices.
 
-About 162,500 new homes are expected to be completed in 2027. More supply can hold rents down. Savills also expects prime property values in Dubai to fall by around 10% in the second half of 2026.
+About 136,100 new homes are scheduled for completion in 2027. More supply can hold rents down. Savills also expects prime property values in Dubai to fall by around 10% in the second half of 2026.
 
 WHAT TO CHECK
 Check the date of every figure your buyer sees. A yield from last year may not reflect today's prices and rents.
@@ -127,7 +127,7 @@ Check the date of every figure your buyer sees. A yield from last year may not r
 WHAT TO TELL YOUR BUYER
 Explain that past yields are not a promise. If they plan to sell in the next few years, they should look at the price forecast too, not only the rent.
 
-Sources: Cavendish Maxwell, Dubai residential market H1 2026 / Savills, Dubai Residential Market in Minutes Q3 2026 / Savills World Cities Prime Residential Index H1 2026.
+Sources: Cavendish Maxwell, Dubai residential market H1 2026 and Q3 2026 / Savills, Dubai Residential Market Report Q3 2026 / Savills World Cities Prime Residential Index H1 2026.
 
 ## 10 / 07 The buyer's cash is not ready on transfer day
 Your buyer has agreed the price and plans to pay part of it from other funds. But that money is tied up in another property sale or in an account abroad.
@@ -138,7 +138,7 @@ WHAT TO CHECK
 Ask where the buyer's money is held and when it will be available. Confirm the full amount due on transfer day, including fees.
 
 HOW THE DEAL MAY BE SAVED
-If the buyer needs AED 1 million or more to complete the purchase before their own funds arrive, contact NEMAX Finance to discuss short-term co-financing.
+If the buyer's own funds will not arrive in time, contact NEMAX Finance early. NEMAX can co-finance the purchase instead of a bank, or provide capital against a property the buyer already owns. It does not top up a bank mortgage, because a bank down payment must come from the buyer's own funds. The smallest amount is AED 1 million.
 
 Source: The National, 25 January 2025, on the Central Bank instruction to UAE banks from 1 February 2025. Funding is subject to assessment.
 
@@ -162,7 +162,7 @@ The rental index limits how much the rent can rise at renewal. If the unit alrea
 Since 1 February 2025, UAE banks have been told not to include the transfer fee and the agency fee in the mortgage. You pay them in cash on the day of transfer, together with your own share of the price. See page 10.
 
 **I already own a property. Can I use it to buy another one to let?**
-Banks look mainly at your income. NEMAX looks at the property. If you need AED 1 million or more, capital can be raised against a property you already own in the UAE. See page 12.
+Banks look mainly at your income. NEMAX looks at the property. If you need AED 1 million or more, capital can be raised against a property you already own in the UAE. It cannot be the property your golden visa depends on. See page 12.
 
 Source: questions paraphrased from r/DubaiRealEstate, r/dubai and r/UAE, August to October 2026. Answers are based on the sources in this guide.
 
@@ -177,8 +177,8 @@ Before your buyer commits
 
 When to contact NEMAX Finance
 If your buyer needs additional funding to complete a property purchase, contact NEMAX Finance early.
-We co-finance property purchases in the UAE. Your buyer contributes their own funds, and we provide additional capital. We use the property they are buying as security for the funding. We can also provide capital against a property they already own.
+We co-finance property purchases in the UAE. Your buyer contributes their own funds, and we provide additional capital. The property they are buying is held by an ADGM SPV, a separate company set up for this one deal, and the co-financing is secured by it. We can also provide capital against a property they already own.
 Tell us which property they want to buy, what is preventing the purchase and when the payment is due.
 [Discuss your deal with NEMAX Finance →]
 
-Funding is subject to assessment of the buyer, property and transaction and applicable UAE requirements. Yields in this guide are third-party market figures published between July and October 2026: past results, not a promise, and not a NEMAX return. This guide is for general information and is not a funding offer.
+NEMAX structures asset-backed co-financing secured by real estate and does not operate as a retail bank. Funding is subject to assessment of the buyer, property and transaction and applicable UAE requirements. Yields in this guide are third-party market figures published between July and November 2026: past results, not a promise, and not a NEMAX return. This guide is for general information and is not a funding offer.

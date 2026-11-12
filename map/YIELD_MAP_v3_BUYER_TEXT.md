@@ -2,7 +2,7 @@
 
 **Собрано 13.10.2026.** Та же схема, что у брокерской редакции `05_OPERATIONS:/sales/YIELD_MAP_v3_broker-plain_2026-10-13.md`: семь причин, у каждой ситуация → чем грозит → WHAT TO CHECK → WHAT TO DO. Разница только в читателе: «you» вместо «your buyer».
 **Цифры** подставляются из `04_RESEARCH:/market_reports/yield-map-refresh-2026-10-13.md` (обновление на октябрь 2026).
-**Абзацы про NEMAX** переписаны из текста Маши на «you». Это уже НЕ её дословный текст: 🔴 показать ей.
+**Абзацы про NEMAX** переписаны из текста Маши на «you»; 12.11.2026 фраза про залог заменена каноном SPV, причина 07 и вопрос 6 приведены к правилам 12.11. 🔴 Показать Маше.
 **Кнопка:** `https://apply.nemax-finance.com/?utm_source=yield-map&utm_medium=pdf&utm_campaign=yield-map-buyer-q4&utm_content=cta-discuss-purchase`
 
 ---
@@ -14,7 +14,7 @@ Why the yield you see may not be the yield you get
 ## 02 INTRO
 You are looking at an apartment in Dubai as an investment. Before you commit, you want to know one thing: what will it earn?
 
-A property portal shows a yield of 8.2%. A market report shows 6.7% for the same area. A third source gives a different number again.
+A property portal shows a yield of 7.1%. A market report shows 6.3% for the same area. A third source gives a different number again.
 
 If you plan on the higher number and the rent comes in lower, the purchase may not work the way you expected.
 
@@ -34,14 +34,14 @@ Contents:
 → When to contact NEMAX Finance / 12
 
 About card:
-NEMAX Finance provides short-term, asset-backed capital for real estate transactions in the UAE. We co-finance purchases with the buyer and use the property they are buying, or one they already own, as security for the funding.
+NEMAX Finance provides short-term, asset-backed capital for real estate transactions in the UAE. We co-finance purchases with the buyer. The property is held by an ADGM SPV, a separate company set up for this one deal, and the co-financing is secured by the property.
 Every yield in this guide comes from a named third-party source. None of them is a NEMAX return.
 
 ## 03 THE MAP
 Apartment yields by community
 Each figure is shown as its source published it. An empty cell means that source did not publish a figure for that community. The columns are not averaged, because each source measures in a different way.
 
-Таблица — вариант A из `04_RESEARCH:/market_reports/yield-map-refresh-2026-10-13.md` §3.1, та же, что в брокерской редакции.
+Таблица — `04_RESEARCH:/market_reports/yield-map-refresh-2026-11-12.md` §3, та же, что в брокерской редакции. 🔴 Ноябрьский Property Monitor подозрителен (§2.2).
 
 Note: n is the number of buildings behind the DLD figure. Where n is small, the average can move easily.
 
@@ -51,18 +51,18 @@ These are third-party market figures, published on the dates shown. They are not
 ## 04 / 01 The yield is based on asking prices, not real sales
 Buyers often ask which area gives the highest yield. The answer depends on who counts. Most property portals calculate yield from advertised prices and advertised rents. Bayut says this in its own report: it uses listing prices, not the prices buyers actually paid.
 
-Registered data often shows a lower number. In Dubai Silicon Oasis, listings showed 8.23% in the first half of 2026. Registered data for August 2026 showed 6.69% for the same community.
+Registered data may show a different number. In Jumeirah Village Circle, listings showed a yield of 7.10% in September 2026. Registered data for the same month showed 6.3%.
 
 WHAT TO CHECK
 Ask the agent where the yield figure comes from: listings, registered data or Dubai Land Department records. If the source is not clear, do not use the number to plan income.
 
 WHAT TO DO
-Treat the listing yield as the highest likely figure, not a plan. Find the registered figure for the same community and plan on the lower number.
+Do not use the listing yield as a plan. Find the registered figure for the same community and plan on the lower of the two.
 
 ## 05 / 02 Different sources give different yields for the same area
-Four well-known sources publish yields for Dubai. They measure at different points of a deal, so their numbers rarely match.
+Several well-known sources publish yields for Dubai. They measure at different points of a deal, so their numbers rarely match.
 
-In Jumeirah Village Circle, one source published 6.36% and another 8.86% in 2026. On an AED 1.5 million apartment, a gap of 2.5 points is AED 37,500 of rent a year.
+In Downtown Dubai, one source published 5.10% and another 7.43% in 2026. On an AED 1.5 million apartment, a gap of more than 2 points is about AED 35,000 of rent a year.
 
 WHAT TO CHECK
 Compare at least two sources for the community before you commit. Note the lowest and the highest figure, not only the one you saw first.
@@ -104,9 +104,9 @@ WHAT TO DO
 If the average rests on a few buildings, compare rents in the specific building instead. Recent tenancy contracts for similar units are a better guide.
 
 ## 09 / 06 Prices and rents are both changing
-Yield is rent divided by price. In the second quarter of 2026, Dubai prices fell by 2.5% and rents also fell by 2.5%, compared with the first quarter. In the third quarter, average apartment prices fell by a further 4.8%. For the same homes, the fall was 1.7%.
+Yield is rent divided by price. In the second quarter of 2026, Dubai prices and rents both fell by about 2.5%, compared with the first quarter. In the third quarter, the picture was mixed. One consultancy recorded a small rise in prices, and rents returned to their March level. Another recorded a 4.8% fall in average apartment prices.
 
-About 162,500 new homes are expected to be completed in 2027. More supply can hold rents down. Savills also expects prime property values in Dubai to fall by around 10% in the second half of 2026.
+About 136,100 new homes are scheduled for completion in 2027. More supply can hold rents down. Savills also expects prime property values in Dubai to fall by around 10% in the second half of 2026.
 
 WHAT TO CHECK
 Check the date of every figure you see. A yield from last year may not reflect today's prices and rents.
@@ -123,7 +123,7 @@ WHAT TO CHECK
 Confirm where your money is held and when it will be available. Ask the agent for the full amount due on transfer day, including fees.
 
 HOW THE PURCHASE MAY BE SAVED
-If you need AED 1 million or more to complete the purchase before your own funds arrive, contact NEMAX Finance to discuss short-term co-financing.
+If your own funds will not arrive in time, talk to NEMAX Finance early. NEMAX can co-finance the purchase instead of a bank, or provide capital against a property you already own. It does not top up a bank mortgage, because a bank down payment must come from your own funds. The smallest amount is AED 1 million.
 
 ## 11 WHAT BUYERS ASK
 What buyers ask
@@ -145,7 +145,7 @@ The rental index limits how much the rent can rise at renewal. If the unit alrea
 Since 1 February 2025, UAE banks have been told not to include the transfer fee and the agency fee in the mortgage. You pay them in cash on the day of transfer, together with your own share of the price. See page 10.
 
 **I already own a property. Can I use it to buy another one to let?**
-Banks look mainly at your income. NEMAX looks at the property. If you need AED 1 million or more, capital can be raised against a property you already own in the UAE. See page 12.
+Banks look mainly at your income. NEMAX looks at the property. If you need AED 1 million or more, capital can be raised against a property you already own in the UAE. It cannot be the property your golden visa depends on. See page 12.
 
 Source: questions paraphrased from r/DubaiRealEstate, r/dubai and r/UAE, August to October 2026. Answers are based on the sources in this guide.
 
@@ -160,8 +160,8 @@ Before you commit
 
 When to contact NEMAX Finance
 If you need additional funding to complete a property purchase, contact NEMAX Finance early.
-We co-finance property purchases in the UAE. You contribute your own funds, and we provide additional capital. We use the property you are buying as security for the funding. We can also provide capital against a property you already own.
+We co-finance property purchases in the UAE. You contribute your own funds, and we provide additional capital. The property you are buying is held by an ADGM SPV, a separate company set up for this one deal, and the co-financing is secured by it. We can also provide capital against a property you already own.
 Tell us which property you want to buy, what is preventing the purchase and when the payment is due.
 [Discuss your purchase with NEMAX Finance →]
 
-Funding is subject to assessment of the buyer, property and transaction and applicable UAE requirements. Yields in this guide are third-party market figures published between July and October 2026: past results, not a promise, and not a NEMAX return. This guide is for general information and is not a funding offer.
+NEMAX structures asset-backed co-financing secured by real estate and does not operate as a retail bank. Funding is subject to assessment of the buyer, property and transaction and applicable UAE requirements. Yields in this guide are third-party market figures published between July and November 2026: past results, not a promise, and not a NEMAX return. This guide is for general information and is not a funding offer.

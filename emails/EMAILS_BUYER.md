@@ -48,9 +48,9 @@ Hi {{FirstName}}, this is the NEMAX team. You downloaded our Dubai Yield Map. If
 
 Hi {{FirstName}},
 
-Most property portals calculate yield from asking prices and asking rents. Registered data often shows a lower figure for the same community.
+Most property portals calculate yield from asking prices and asking rents. Registered data may show a lower figure for the same community.
 
-On an AED 1.5 million apartment, that gap can be more than AED 20,000 of rent a year. Page 04 of the map shows one community where this happens, and how to check which number you were given.
+On an AED 1.5 million apartment, that gap can be about AED 12,000 of rent a year. Page 04 of the map shows one community where this happens, and how to check which number you were given.
 
 Before you plan your income, ask the agent one question: where does this yield figure come from?
 
@@ -66,7 +66,7 @@ Since 1 February 2025, UAE banks have been told not to include the DLD transfer 
 
 If part of your money is in another property or in an account abroad, check the dates now, not in the last week.
 
-When the money is not ready in time, NEMAX can co-finance the purchase. The smallest amount of capital is AED 1 million, and the property you are buying is used as security.
+When the money is not ready in time, NEMAX can co-finance the purchase instead of a bank. The property is held by an ADGM SPV, a separate company set up for this one deal, and the co-financing is secured by it. NEMAX does not top up a bank mortgage, because a bank down payment must come from your own funds. The smallest amount of capital is AED 1 million.
 
 NEMAX team
 
@@ -80,7 +80,7 @@ The bank lends on the lower of the agreed price and its own valuation. If the va
 
 Ask the agent whether a bank valuation has been done recently in the same building. If it has not, plan for a gap before you sign.
 
-If you already own a property in the UAE, there may be another way to cover that gap. Reply and tell us about your purchase.
+A bank down payment must come from your own funds, so this gap cannot be covered with borrowed money next to a mortgage. If the bank route no longer works, NEMAX can co-finance the purchase instead of a bank. Reply and tell us about your purchase.
 
 NEMAX team
 
@@ -112,7 +112,7 @@ Hi {{FirstName}},
 
 If you do not live in the UAE, banks often ask for a larger share of your own money than a resident would pay. It is bank policy, not a Central Bank rule, so it differs from bank to bank.
 
-Check the offer from at least two banks before you sign. If the gap is still too large, NEMAX looks at the property, not at your residency.
+Check the offer from at least two banks before you sign. If no bank offer works, NEMAX can co-finance the purchase instead of a bank. It looks at the property, not at your residency. It does not top up a bank mortgage.
 
 NEMAX team
 
@@ -133,6 +133,8 @@ NEMAX team
 - `{{MapLink}}`: PDF карты ещё не залит в Webflow Assets, страница `/thank-you/yield-map` 404.
 - `{{CheckLink}}`: Purchase Check собран черновиком (`PURCHASE_CHECK_v1.pdf`), на сайт не залит.
 - С какого адреса уходят письма: Brevo на бесплатном тарифе не даёт автоматизаций, домен отправителя ждёт DKIM.
-- «around AED 20,000»: это Dubai Silicon Oasis, 1,54 п.п. × AED 1,5 млн = AED 23,100. Расчёт наш, иллюстративный.
+- «about AED 12,000» (12.11): Jumeirah Village Circle, Bayut Q3 2026 7.10% против Property Monitor September 2026 6.3% = 0,8 п.п. × AED 1,5 млн = AED 12,000. Это пример стр. 04 карты. Расчёт наш, иллюстративный. Было «more than AED 20,000» по DSO (август), пример снят вместе с цифрами августа.
+- 🔴 «may show a lower figure» вместо «often shows»: в ноябрьской таблице Property Monitor ВЫШЕ листингов во всех районах (ресёч 12.11 §2.2, ноябрьская выгрузка под вопросом), «часто ниже» больше не держится.
 - Email 6, «banks often ask for a larger share»: по проверенному ресёчу 28.06 нерезиденту банки обычно дают 50–60%. Это политика банков, не норма ЦБ, поэтому формулировка без цифры.
-- Email 3, «the property you are buying is used as security»: это формулировка Маши, она до сих пор не подтверждена у Макса. Подтвердить до отправки.
+- Emails 4 и 6, 12.11.2026: убран ход «закрыть разрыв банка капиталом NEMAX» (правило nemax-down-payment-own-funds-rule, CBUAE C 31/2013 Art 2.4: взнос только из своих средств). Теперь NEMAX только ВМЕСТО банка. Вернуть старый ход можно только после ответа Макса (вопрос №4 в «Вопросы Максу 12.11.2026.md»).
+- Email 3: 12.11.2026 формулировка про залог заменена каноном SPV (память nemax-spv-holds-not-nemax) и добавлено «does not top up a bank mortgage» (nemax-down-payment-own-funds-rule).

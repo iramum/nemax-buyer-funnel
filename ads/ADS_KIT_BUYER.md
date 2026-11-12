@@ -16,15 +16,16 @@
 |---|---|---|
 | `B01_seven` | «7» во весь кадр на синем, «reasons the yield you see is not the yield you get», фото-полоса | основной, повторяет форму брокерского победителя `01_seven` |
 | `B02_listing_contract` | «The number in the listing is not the number in the contract», фото справа | тест против B01: тот же оффер, другая форма |
-| `B03_four_sources` | «4» во весь кадр: четыре источника, четыре разные доходности | второй кандидат в форме победителя |
+| `B03_three_sources` | «3» во весь кадр: три источника, три разные доходности (12.11: было «4», колонка E&V снята) | второй кандидат в форме победителя |
 | `B04_transfer_day` | «Transfer day is set. Your money is still in another sale.» | ближе к деньгам: причина 07, где у NEMAX есть ход |
 | `B05_map_table` | страница 03 карты (таблица) уходит за нижний край | прямой оффер: человек видит, что получит |
 | `B06_three_questions` | три вопроса из чек-листа, серый, без фото | тихий кадр для теста |
 
 ⛔ **На кадрах нет ни одного процента.** Правило ленты: никаких % и ставок в Instagram, а Meta
-показывает эти кадры в Instagram. Разницу в доходности показываем в дирхамах: AED 23,100 в год
-на квартире за AED 1,5 млн. Это Dubai Silicon Oasis: Bayut H1 2026 против Property Monitor
-за август 2026, 1,54 п.п. × 1,5 млн. Расчёт наш, иллюстративный.
+показывает эти кадры в Instagram. Разницу в доходности показываем в дирхамах: AED 12,000 в год
+на квартире за AED 1,5 млн. Это Jumeirah Village Circle: Bayut Q3 2026 (7.10) против Property Monitor
+за сентябрь 2026 (6.3), 0,8 п.п. × 1,5 млн, тот же пример, что на стр. 04 карты. Расчёт наш, иллюстративный.
+(До 12.11 было AED 23,100 по Dubai Silicon Oasis за август: снято вместе с августовскими цифрами.)
 
 ⛔ **Урок брокерской кампании перенесён:** с 18.09 по 20.09 кадр-документ `05_playbook` дал ноль кликов,
 а «7 во весь кадр» дал все заявки. Поэтому основной кадр здесь в той же форме (B01), а кадр с
@@ -37,11 +38,11 @@
 ### A. Карта (к B01, B03, B05)
 
 **Primary text**
-> Portals, market reports and Land Department data give four different yields for the same
+> Portals, market reports and Land Department data give three different yields for the same
 > Dubai community. The map puts them in one table and explains why.
 
 **Headline:** `The Dubai Yield Map`
-**Description:** `Free, 11 pages`
+**Description:** `Free, 12 pages`
 **CTA:** Download
 
 ### B. Цифра в объявлении (к B02, B06)
@@ -73,7 +74,7 @@
 
 **Экран 1**
 > **The Dubai Yield Map**
-> Fourteen Dubai communities, four published sources, one table. And seven reasons the yield
+> Fourteen Dubai communities, three published sources, one table. And seven reasons the yield
 > you see may not be the yield you get.
 
 **Экран 2**
@@ -95,8 +96,8 @@
 > Кнопка: `Download the map`
 > Ссылка: `https://nemax-finance.com/thank-you/yield-map?utm_source=facebook&utm_medium=paid&utm_campaign=yield-map-buyer-q4`
 
-🔴 **Страница `/thank-you/yield-map` на сайте сейчас 404** (проверено curl 13.10). Пока её нет, форму
-не запускать. Кит страницы: `02_WEBSITE:/pages/yield-map-CANON/` блоки `*-v3.html`.
+🔴 **Страница `/thank-you/yield-map` собрана 12.11 черновиком в Webflow, не опубликована** (на живом сайте 404).
+Пока её нет, форму не запускать. Кит страницы: артефакт claude.ai/artifact/2vckR6eHvGgeSH8hgD6A1H.
 
 ## 4. Как собрать кампанию
 
@@ -123,5 +124,5 @@
 1. 🔴 **Слово «yield» на кадрах.** Скилл `/nemax-content` §5a держит `yields` в списке NEVER для ленты, а стоп-слова
    разрешают чужую доходность с источником. Кадры B01–B05 и название карты его используют. Если слово нельзя,
    кадры переписываются генератором за один прогон.
-2. 🔴 **Разница доходности в дирхамах** (B02: AED 23,100 в год): по сути это процент, переведённый в деньги.
+2. 🔴 **Разница доходности в дирхамах** (B02: AED 12,000 в год): по сути это процент, переведённый в деньги.
    Разрешаешь на кадре или оставляем только механизм.
