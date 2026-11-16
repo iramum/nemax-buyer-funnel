@@ -30,7 +30,7 @@
    |---|---|---|---|
    | ![Z1](ads/creatives/0_v3_2026-11-16/NEMAX_ad_Z1_listing_vs_fact_4x5.png) | ![Z2](ads/creatives/0_v3_2026-11-16/NEMAX_ad_Z2_aed_gap_4x5.png) | ![Z3](ads/creatives/0_v3_2026-11-16/NEMAX_ad_Z3_fourteen_communities_4x5.png) | ![Z4](ads/creatives/0_v3_2026-11-16/NEMAX_ad_Z4_transfer_day_check_4x5.png) |
 
-   Без названий компаний, без процентов, без местоимений, фото Dubai Marina. Все четыре идут на все плейсменты, Instagram тоже.
+   Без названий компаний, без процентов, фото Dubai Marina. Местоимения не висят в конце строки. Все четыре идут на все плейсменты, Instagram тоже.
 2. **Карта** — [PDF для покупателя (стоит на сайте)](map/NEMAX-Dubai-Yield-Map.pdf) и [для брокеров](map/NEMAX-Dubai-Yield-Map-for-brokers.pdf), по 12 страниц, с новой обложкой.
    Текст, как он стоит в вёрстке: [покупатель](map/YIELD_MAP_BUYER_TEXT_from_Figma_2026-11-16.md), [брокер](map/YIELD_MAP_BROKER_TEXT_from_Figma_2026-11-16.md).
 3. **Обложки** — [карта C3](map/covers/yield-map-cover-C3-2026-11-16.jpg), [брокерская C3](map/covers/yield-map-cover-broker-C3-2026-11-16.jpg), [Purchase Check](map/covers/purchase-check-cover-2026-11-16.png).
@@ -39,9 +39,9 @@
 
 ## Что изменилось 16.11 вечером
 
-- **Реклама v3 вместо v2:** «listing и fact» вместо «registered data» и «3 sources»; суммы аренды в AED вместо процентов; Bayut и Property Monitor убраны; фото Dubai Marina; у Purchase Check назван день (transfer day) и почему; без местоимений.
-- **Обложка C3** (карта и брокерская): подписи «In the listing» / «In fact», без названий компаний, «Which number to plan on?». Оригинал C2 в Figma не тронут, C3 лежит рядом. В обеих PDF заменена первая страница, ссылка Apply в конце на месте.
-- **Сайт (в Webflow, ждёт её Publish):** первый экран «7.1% in the listing. 6.3% in fact.», «Same area» сверху, без компаний и без «3 published sources»; блок «что внутри» без повтора цифр и без списка компаний (источники сноской в карте); страница выдачи без «you / your»; SEO и OG-картинка обновлены; новая PDF на странице выдачи.
+- **Реклама v3 вместо v2:** «listing и fact» вместо «registered data» и «3 sources»; суммы аренды в AED вместо процентов; Bayut и Property Monitor убраны; фото Dubai Marina; у Purchase Check назван день (transfer day) и почему; местоимения склеены со следующим словом и не висят.
+- **Обложка C3** (карта и брокерская): подписи «In the listing» / «In fact», без названий компаний, «Which number do you plan on?». Оригинал C2 в Figma не тронут, C3 лежит рядом. В обеих PDF заменена первая страница, ссылка Apply в конце на месте.
+- **Сайт (в Webflow, ждёт её Publish):** первый экран «7.1% in the listing. 6.3% in fact.», «Same area» сверху, без компаний и без «3 published sources»; блок «что внутри» без повтора цифр и без списка компаний (источники сноской в карте); страница выдачи без «three published sources»; местоимения везде склеены со следующим словом, висячих нет; SEO и OG-картинка обновлены; новая PDF на странице выдачи.
 - **Схема воронки** первой в этом README.
 
 ## Что изменилось 16.11
@@ -157,5 +157,4 @@ Y1 несёт проценты, поэтому идёт только в лент
 - вход на /yield-map с главной и из статей про доходность;
 - 🔴 ноябрьский Property Monitor выше листингов во всех районах — ждёт проверки;
 - можно ли «ипотека банка + капитал NEMAX на взнос» — вопрос Максу, до ответа этот ход нигде не предлагается.
-- 🔴 местоимения ещё остались: обложка и вопросы Purchase Check («Is your money ready on the day?», «Can you repay…»), подпись поля формы «Are you buying a property in Dubai now?» (меняется только в Designer, от неё зависит выгрузка заявок), тексты писем;
 - 🔴 сайт: правки 16.11 вечером внесены в Webflow, ждут Publish.

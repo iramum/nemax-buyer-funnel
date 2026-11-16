@@ -154,13 +154,13 @@ Email д0 → WhatsApp д2 → email д3, д7, д14 → звонок д21 → em
 | 2a | Вопросы покупателей с Reddit | ✅ 15.10: [research/REDDIT_QUESTIONS.md](research/REDDIT_QUESTIONS.md) |
 | 2b | Язык | ✅ стиль плейбука Маши ([STYLE_MASHA.md](STYLE_MASHA.md)), B2 |
 | 3 | Вёрстка обеих редакций | ✅ Figma `1515:317`; финальные PDF: [map/NEMAX-Dubai-Yield-Map.pdf](map/NEMAX-Dubai-Yield-Map.pdf) (покупатель, на сайте) и [для брокеров](map/NEMAX-Dubai-Yield-Map-for-brokers.pdf) |
-| 4 | Обложка карты | ✅ 16.11 вечер C3 (Figma 2426:359, рядом с C2 2421:359): «In the listing» / «In fact», без Bayut / Property Monitor, «Which number to plan on?». Брокерская C3 2427:359. Первая страница обеих PDF заменена |
-| 5 | Страницы `/yield-map` и `/thank-you/yield-map` | ✅ в лайве с 16.11. 16.11 вечер в Webflow заменены первый экран, «что внутри», заголовок формы, выдача, SEO/OG: без компаний, без местоимений, без «3 sources». 🔴 Ждёт её Publish |
+| 4 | Обложка карты | ✅ 16.11 вечер C3 (Figma 2426:359, рядом с C2 2421:359): «In the listing» / «In fact», без Bayut / Property Monitor, «Which number do you plan on?». Брокерская C3 2427:359. Первая страница обеих PDF заменена |
+| 5 | Страницы `/yield-map` и `/thank-you/yield-map` | ✅ в лайве с 16.11. 16.11 вечер в Webflow заменены первый экран, «что внутри», заголовок формы, выдача, SEO/OG: без компаний и без «3 sources»; местоимения на месте, склеены со следующим словом, чтобы не висели. 🔴 Ждёт её Publish |
 | 6 | Форма | ✅ «Yield Map Form», поле Buying now, после отправки → /thank-you/yield-map (проверено по живому коду). Тестовая заявка 16.11 легла в Webflow |
 | 7 | Purchase Check | ✅ 2 страницы: обложка (8 questions / 2 minutes) + лист с кнопкой «Apply now →». Выдаётся на /thank-you/yield-map вместе с картой; своей страницы нет |
 | 8 | Письма прогрева | ✅ текст готов; в конце каждого письма apply на портал с UTM |
 | 9 | Отправка писем | 🔴 Brevo: ключ упирается в 401 по IP (16.11), автоматизаций на бесплатном тарифе нет. Списки «Yield Map Form» и «Apply for Capital» завести, когда пустят |
-| 10 | Реклама Meta | 🟡 **16.11 набор v3** (заменил v2): 4 кадра × 3 формата, Dubai Marina, AED вместо процентов, без компаний и местоимений, на все плейсменты: [ads/creatives/0_v3_2026-11-16](ads/creatives/0_v3_2026-11-16) + тексты в [ads/ADS_KIT_BUYER.md](ads/ADS_KIT_BUYER.md) §0. Кампания в кабинете не собрана |
+| 10 | Реклама Meta | 🟡 **16.11 набор v3** (заменил v2): 4 кадра × 3 формата, Dubai Marina, AED вместо процентов, без компаний, местоимения не висят, на все плейсменты: [ads/creatives/0_v3_2026-11-16](ads/creatives/0_v3_2026-11-16) + тексты в [ads/ADS_KIT_BUYER.md](ads/ADS_KIT_BUYER.md) §0. Кампания в кабинете не собрана |
 | 11 | Контент для Instagram | 🟡 контентная база: [instagram/](instagram/) |
 | 12 | Вход с главной | 🔴 нового входа на /yield-map с главной нет |
 | 13 | Apply на портал Макса | ✅ во всех касаниях с меткой: первый экран (`src=yield-map-landing`), благодарность (`src=yield-map-thanks`), PDF карты, Purchase Check, письма |
