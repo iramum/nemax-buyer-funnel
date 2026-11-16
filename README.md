@@ -1,21 +1,48 @@
 # NEMAX: воронка покупателя — Dubai Yield Map, реклама, письма, контент
 
-Обновлено **16.11.2026: страницы в лайве.** Зеркало брокерской воронки ([nemax-broker-ads](https://github.com/iramum/nemax-broker-ads)),
-но для конечного покупателя: человека, который покупает квартиру в Дубае как вложение.
+## 🧭 Как это работает
+
+![Воронка покупателя: от рекламы до заявки на портале](funnel/NEMAX-buyer-funnel-2026-11-16.png)
+
+1. **Реклама** в Facebook и Instagram: Дубай и две суммы аренды, «в объявлении» и «на деле». Кнопка «Get the free map».
+2. **[/yield-map](https://nemax-finance.com/yield-map)**: имя, почта, WhatsApp и один вопрос «Вы покупаете сейчас?».
+3. **[/thank-you/yield-map](https://nemax-finance.com/thank-you/yield-map)**: карта доходности (14 районов) + Purchase Check (8 вопросов) + кнопка Apply.
+4. **Развилка по ответу.** «Покупаю в этом месяце / в ближайшие 3» → менеджер NEMAX пишет или звонит в течение 48 часов.
+   «Пока изучаю» → цепочка писем (д0, WhatsApp д2, д3, д7, д14, звонок д21, д30, д45), в каждом письме Apply.
+5. **Заявка** на портале apply.nemax-finance.com: в ссылке метка, Макс видит, с какого шага пришёл человек.
+6. **Сделка:** оценка → проверка → условия → SPV → капитал, цель около 30 дней.
+
+> **Почему в рекламе и в Instagram нет процентов.** Правило с 09.07.2026: никаких процентов и ставок в Instagram.
+> Реклама Meta показывается и там. Голый процент читается как реклама займа и тянет NEMAX в «кредитора».
+> Поэтому разницу показываем в дирхамах аренды (AED 106,500 против AED 94,500 на одной квартире),
+> а проценты с источником и датой остаются внутри самой карты.
+
+Подробно по шагам: **[FUNNEL_BUYER.md](FUNNEL_BUYER.md)**.
+
 Любой файл скачивается так: открыть его → кнопка **Download raw file** (стрелка вниз справа сверху).
 Скачать всё разом: зелёная кнопка **Code** → **Download ZIP**.
 
-**Живые страницы:** [nemax-finance.com/yield-map](https://nemax-finance.com/yield-map) → после формы
-[/thank-you/yield-map](https://nemax-finance.com/thank-you/yield-map) (карта + Purchase Check + Apply на портал).
-
 ## 🔎 Маше на звонок 16.11
 
-1. **Карта, финал** — [PDF для покупателя (стоит на сайте)](map/NEMAX-Dubai-Yield-Map.pdf) и [для брокеров](map/NEMAX-Dubai-Yield-Map-for-brokers.pdf), по 12 страниц.
+1. **Реклама, набор v3** — [ads/creatives/0_v3_2026-11-16](ads/creatives/0_v3_2026-11-16), тексты в [ads/ADS_KIT_BUYER.md](ads/ADS_KIT_BUYER.md) §0:
+
+   | `Z1_listing_vs_fact` | `Z2_aed_gap` | `Z3_fourteen_communities` | `Z4_transfer_day_check` |
+   |---|---|---|---|
+   | ![Z1](ads/creatives/0_v3_2026-11-16/NEMAX_ad_Z1_listing_vs_fact_4x5.png) | ![Z2](ads/creatives/0_v3_2026-11-16/NEMAX_ad_Z2_aed_gap_4x5.png) | ![Z3](ads/creatives/0_v3_2026-11-16/NEMAX_ad_Z3_fourteen_communities_4x5.png) | ![Z4](ads/creatives/0_v3_2026-11-16/NEMAX_ad_Z4_transfer_day_check_4x5.png) |
+
+   Без названий компаний, без процентов, без местоимений, фото Dubai Marina. Все четыре идут на все плейсменты, Instagram тоже.
+2. **Карта** — [PDF для покупателя (стоит на сайте)](map/NEMAX-Dubai-Yield-Map.pdf) и [для брокеров](map/NEMAX-Dubai-Yield-Map-for-brokers.pdf), по 12 страниц, с новой обложкой.
    Текст, как он стоит в вёрстке: [покупатель](map/YIELD_MAP_BUYER_TEXT_from_Figma_2026-11-16.md), [брокер](map/YIELD_MAP_BROKER_TEXT_from_Figma_2026-11-16.md).
-2. **Обложки** — [карта](map/covers/yield-map-cover-C2-2026-11-16.jpg), [брокерская](map/covers/yield-map-cover-broker-2026-11-16.png), [Purchase Check](map/covers/purchase-check-cover-2026-11-16.png).
-3. **Purchase Check** — [PDF, 2 страницы](purchase-check/NEMAX-2-Minute-Purchase-Check.pdf): обложка + 8 вопросов, кнопка «Apply now →» на портал.
-4. **Реклама, новый набор** — ниже и [ads/ADS_KIT_BUYER.md](ads/ADS_KIT_BUYER.md) §0.
+3. **Обложки** — [карта C3](map/covers/yield-map-cover-C3-2026-11-16.jpg), [брокерская C3](map/covers/yield-map-cover-broker-C3-2026-11-16.jpg), [Purchase Check](map/covers/purchase-check-cover-2026-11-16.png).
+4. **Purchase Check** — [PDF, 2 страницы](purchase-check/NEMAX-2-Minute-Purchase-Check.pdf): обложка + 8 вопросов, кнопка «Apply now →» на портал.
 5. **Решить Маше:** в абзацах о NEMAX на стр. 02 и 12 стоит «We» (4 раза), стоп-стандарт его запрещает. Замены готовы: «NEMAX co‑finances…», «NEMAX provides…».
+
+## Что изменилось 16.11 вечером
+
+- **Реклама v3 вместо v2:** «listing и fact» вместо «registered data» и «3 sources»; суммы аренды в AED вместо процентов; Bayut и Property Monitor убраны; фото Dubai Marina; у Purchase Check назван день (transfer day) и почему; без местоимений.
+- **Обложка C3** (карта и брокерская): подписи «In the listing» / «In fact», без названий компаний, «Which number to plan on?». Оригинал C2 в Figma не тронут, C3 лежит рядом. В обеих PDF заменена первая страница, ссылка Apply в конце на месте.
+- **Сайт (в Webflow, ждёт её Publish):** первый экран «7.1% in the listing. 6.3% in fact.», «Same area» сверху, без компаний и без «3 published sources»; блок «что внутри» без повтора цифр и без списка компаний (источники сноской в карте); страница выдачи без «you / your»; SEO и OG-картинка обновлены; новая PDF на странице выдачи.
+- **Схема воронки** первой в этом README.
 
 ## Что изменилось 16.11
 
@@ -62,7 +89,7 @@
 **[FUNNEL_BUYER.md](FUNNEL_BUYER.md)**: кого привлекаем, зачем скачивать карту, что человек делает дальше,
 когда звонить, что уже готово и чего нет.
 
-![Воронка покупателя](funnel/NEMAX-buyer-funnel-2026-10-13.png)
+Схема наверху этого README. Прежняя схема 13.10: [funnel/NEMAX-buyer-funnel-2026-10-13.png](funnel/NEMAX-buyer-funnel-2026-10-13.png).
 
 ## 🗺 Лид-магнит: The Dubai Yield Map
 
@@ -90,14 +117,16 @@ email д30, д45 → раз в квартал. Для тех, кто ответ�
 [ads/ADS_KIT_BUYER.md](ads/ADS_KIT_BUYER.md): тексты объявлений, лид-форма дословно, аудитории, сборка кампании.
 Каждый кадр в трёх форматах: `4x5` лента, `1x1` квадрат, `9x16` сторис.
 
-**Набор v2, 16.11 — основной** ([ads/creatives/0_v2_2026-11-16](ads/creatives/0_v2_2026-11-16)), в стиле обложки:
+**Набор v3, 16.11 вечер — основной:** см. «Маше на звонок» наверху.
+
+**Набор v2, 16.11 днём — заменён v3, не ставить** ([ads/creatives/0_v2_2026-11-16](ads/creatives/0_v2_2026-11-16)), в стиле обложки:
 
 | `Y1_two_numbers` ⛔ только Facebook | `Y2_aed_gap` | `Y3_fourteen_three` | `Y4_purchase_check` |
 |---|---|---|---|
 | ![Y1](ads/creatives/0_v2_2026-11-16/NEMAX_ad_Y1_two_numbers_FB_ONLY_4x5.png) | ![Y2](ads/creatives/0_v2_2026-11-16/NEMAX_ad_Y2_aed_gap_4x5.png) | ![Y3](ads/creatives/0_v2_2026-11-16/NEMAX_ad_Y3_fourteen_three_4x5.png) | ![Y4](ads/creatives/0_v2_2026-11-16/NEMAX_ad_Y4_purchase_check_4x5.png) |
 
 Y1 несёт проценты, поэтому идёт только в ленту Facebook (в Instagram процентов не ставим). Y2–Y4 без процентов, на все плейсменты.
-Стартовая пара: Y2 + Y3, Y1 отдельно в Facebook, Y4 со второй недели.
+Стартовая пара теперь Z1 + Z3 (v3).
 
 **Прежний набор (14.10–12.11), стартовая пара** ([ads/creatives/1_start](ads/creatives/1_start)):
 
@@ -128,3 +157,5 @@ Y1 несёт проценты, поэтому идёт только в лент
 - вход на /yield-map с главной и из статей про доходность;
 - 🔴 ноябрьский Property Monitor выше листингов во всех районах — ждёт проверки;
 - можно ли «ипотека банка + капитал NEMAX на взнос» — вопрос Максу, до ответа этот ход нигде не предлагается.
+- 🔴 местоимения ещё остались: обложка и вопросы Purchase Check («Is your money ready on the day?», «Can you repay…»), подпись поля формы «Are you buying a property in Dubai now?» (меняется только в Designer, от неё зависит выгрузка заявок), тексты писем;
+- 🔴 сайт: правки 16.11 вечером внесены в Webflow, ждут Publish.

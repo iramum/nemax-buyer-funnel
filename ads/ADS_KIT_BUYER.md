@@ -6,7 +6,45 @@
 
 ---
 
-## 0. Креативы v2, 16.11.2026: ОСНОВНОЙ НАБОР
+## 0. Креативы v3, 16.11.2026 вечер: ОСНОВНОЙ НАБОР
+
+Переделано по её разбору v2: реклама должна быть понятна человеку, который видит её впервые.
+- **Никаких названий компаний** (Bayut, Property Monitor) ни на кадрах, ни в текстах. Источники живут сноской внутри карты.
+- **«Listing и fact»** вместо «registered data» и «3 sources». Вместо «3 sources» простое «14 Dubai communities».
+- **Ни одного процента:** та же пара JVC показана арендой в дирхамах на квартире за AED 1,5 млн
+  (7.10% → AED 106,500 в год, 6.3% → AED 94,500; разница AED 12,000 = стр. 04 карты и письмо 2). Поэтому все кадры идут на все плейсменты, включая Instagram.
+- **Дубай с первого взгляда:** фото Dubai Marina из брендбука (`01_BRAND:/stock_media/photos/dubai_cityscape/`), без Бурдж-Халифы (правило «ни паруса, ни шпиля»).
+- **Purchase Check назван день:** transfer day, и почему: сборы платятся наличными в этот день (с февраля 2025).
+- **Без местоимений** (you / your / we): её слово 16.11.
+
+Генератор `05_OPERATIONS:/sales/ads_creatives/build_ads_buyer_v3.py`, кадры `ads_creatives/png_buyer_v3/` (4 × 4x5 / 1x1 / 9x16).
+Проверено 16.11: видимого процента 0, названий компаний 0, местоимений 0, стоп-слова 0, anti-AI 0 (SHIP); висячие хвосты склеены и проверены глазами во всех 12 кадрах.
+
+| Кадр | Что на нём |
+|---|---|
+| `Z1_listing_vs_fact` | DUBAI YIELD MAP. **AED 106,500** «rent a year, as the listing says» / **AED 94,500** коралловая «rent a year, in fact: signed contracts». «The same AED 1.5M apartment in Jumeirah Village Circle, Dubai.» Жирно «Which number to plan on?» |
+| `Z2_aed_gap` | BUYING IN DUBAI. **AED 35,000** «a year between the listing and the fact, for one AED 1.5M apartment in Downtown Dubai.» Жирно «Which one is in the offer?» (5.10% / 7.43% × 1,5 млн = 34,950) |
+| `Z3_fourteen_communities` | DUBAI YIELD MAP. **14** «Dubai communities. Listing and fact, side by side.» Жирно «Check the area before buying.» |
+| `Z4_transfer_day_check` | BUYING IN DUBAI. Крупно «Cash ready on transfer day?» «Since February 2025 the transfer fee and the agent fee are paid in cash on the day, on top of the buyer's own share.» **8** questions, yes or no / **2** minutes to check a purchase. Кнопка «Get the free check» |
+
+**Тексты объявлений (лимиты 125 / 40 / 30, проверено счётчиком):**
+
+| Кадры | Primary text | Headline | Description |
+|---|---|---|---|
+| Z1, Z2, Z3 | Same Dubai apartment, two rent figures: the listing and the signed contracts. A free map shows both for 14 Dubai communities. (125) | The Dubai Yield Map (19) | Free: 14 Dubai communities (26) |
+| Z4 | Buying in Dubai? Transfer and agent fees are paid in cash on transfer day. A 2-minute check: will the money be ready? (117) | The 2-Minute Purchase Check (27) | Free for Dubai buyers (21) |
+
+CTA кнопка Meta: **Download** (лид-форма) или **Learn more** (трафик на сайт).
+
+**Ссылки (если кампания на трафик), `utm_content` = кадр:** `https://nemax-finance.com/yield-map?utm_source=facebook&utm_medium=paid&utm_campaign=yield-map-buyer-q4&utm_content=z1-listing-vs-fact`
+(далее `z2-aed-gap`, `z3-fourteen`, `z4-transfer-day`). Строки в `03_INSTAGRAM:/UTM_REGISTRY.md`.
+
+**Стартовая пара:** Z1 + Z3 на все плейсменты, Z2 и Z4 со второй недели (меняем одну переменную за раз).
+Набор v2 (Y1–Y4) ниже не ставить: там названия компаний и проценты.
+
+---
+
+## 0a. Креативы v2, 16.11.2026 днём (ЗАМЕНЁН набором v3, не ставить)
 
 В стиле утверждённой обложки (Figma 2421:359): фото башни на весь кадр, синий градиент, две крупные цифры, подпись
 «чья это цифра», жирный вопрос, белая кнопка. Генератор `05_OPERATIONS:/sales/ads_creatives/build_ads_buyer_v2.py`,
