@@ -10,6 +10,11 @@
 это не пост в ленте. Ни одного процента доходности в письмах: цифры только в карте, с источником.
 Метка ссылок: `utm_source=email&utm_medium=email&utm_campaign=yield-map-buyer-q4&utm_content=<письмо>`.
 
+**16.11.2026: в конце КАЖДОГО письма — apply на портал Макса с UTM** (её правило: «в конце везде apply, UTM-ссылка, чтобы Макс видел, откуда пришли»).
+Ссылка идёт прямо на `apply.nemax-finance.com`, не через сайт: на сайте наш старый скрипт стирает `utm_*` у ссылок на портал
+(проверено по живому коду 16.11), а из письма метки доезжают как есть. Портал пишет в заявку `src || utm_source` и все пять `utm_*`.
+WhatsApp: `utm_source=whatsapp&utm_medium=message`. Строки в `03_INSTAGRAM:/UTM_REGISTRY.md`.
+
 | День | Канал | О чём | utm_content |
 |---|---|---|---|
 | 0 | email | карта ещё раз + один вопрос | e0-map |
@@ -36,11 +41,13 @@ One quick question. Are you buying a property right now? If the money for it dep
 
 If not, keep the map. Page 03 is worth opening before you look at the next listing.
 
+If you are buying now and need capital, apply here: https://apply.nemax-finance.com/?utm_source=email&utm_medium=email&utm_campaign=yield-map-buyer-q4&utm_content=e0-map
+
 NEMAX team
 
 ## WhatsApp, день 2
 
-Hi {{FirstName}}, this is the NEMAX team. You downloaded our Dubai Yield Map. If you are buying now and the money for it is not ready by the payment date, reply CHECK and we will look at it. If not, no need to reply.
+Hi {{FirstName}}, this is the NEMAX team. You downloaded our Dubai Yield Map. If you are buying now and the money for it is not ready by the payment date, reply CHECK and we will look at it. If not, no need to reply. To apply directly: https://apply.nemax-finance.com/?utm_source=whatsapp&utm_medium=message&utm_campaign=yield-map-buyer-q4&utm_content=wa2
 
 ## Email 2, день 3
 
@@ -54,6 +61,8 @@ On an AED 1.5 million apartment, that gap can be about AED 12,000 of rent a year
 
 Before you plan your income, ask the agent one question: where does this yield figure come from?
 
+If you are buying now and need capital, apply here: https://apply.nemax-finance.com/?utm_source=email&utm_medium=email&utm_campaign=yield-map-buyer-q4&utm_content=e3-listing
+
 NEMAX team
 
 ## Email 3, день 7
@@ -62,11 +71,13 @@ NEMAX team
 
 Hi {{FirstName}},
 
-Since 1 February 2025, UAE banks have been told not to include the DLD transfer fee and the agency fee in the mortgage. Both are paid in cash on the day of transfer, together with your own share of the price.
+Since 1 February 2025, UAE banks have been told not to include the transfer fee to the Dubai Land Department (DLD) and the agency fee in the mortgage. Both are paid in cash on the day of transfer, together with your own share of the price.
 
 If part of your money is in another property or in an account abroad, check the dates now, not in the last week.
 
 When the money is not ready in time, NEMAX can co-finance the purchase instead of a bank. The property is held by an ADGM SPV, a separate company set up for this one deal, and the co-financing is secured by it. NEMAX does not top up a bank mortgage, because a bank down payment must come from your own funds. The smallest amount of capital is AED 1 million.
+
+If you are buying now and need capital, apply here: https://apply.nemax-finance.com/?utm_source=email&utm_medium=email&utm_campaign=yield-map-buyer-q4&utm_content=e7-fees
 
 NEMAX team
 
@@ -76,11 +87,11 @@ NEMAX team
 
 Hi {{FirstName}},
 
-The bank lends on the lower of the agreed price and its own valuation. If the valuation comes in below the price, you need to cover the difference in cash.
+The bank's offer is based on the lower of the agreed price and its own valuation. If the valuation comes in below the price, you need to cover the difference in cash.
 
 Ask the agent whether a bank valuation has been done recently in the same building. If it has not, plan for a gap before you sign.
 
-A bank down payment must come from your own funds, so this gap cannot be covered with borrowed money next to a mortgage. If the bank route no longer works, NEMAX can co-finance the purchase instead of a bank. Reply and tell us about your purchase.
+A bank down payment must come from your own funds, so this gap cannot be covered with borrowed money next to a mortgage. If the bank route no longer works, NEMAX can co-finance the purchase instead of a bank. Reply and tell us about your purchase, or apply here: https://apply.nemax-finance.com/?utm_source=email&utm_medium=email&utm_campaign=yield-map-buyer-q4&utm_content=e14-valuation
 
 NEMAX team
 
@@ -100,7 +111,7 @@ Hi {{FirstName}},
 
 If you are still looking at a purchase in Dubai, the 2-Minute Purchase Check takes eight questions. It shows whether your money is ready for the payment dates: {{CheckLink}}
 
-When you are ready to apply: apply.nemax-finance.com
+When you are ready to apply: https://apply.nemax-finance.com/?utm_source=email&utm_medium=email&utm_campaign=yield-map-buyer-q4&utm_content=e30-check
 
 NEMAX team
 
@@ -114,6 +125,8 @@ If you do not live in the UAE, banks often ask for a larger share of your own mo
 
 Check the offer from at least two banks before you sign. If no bank offer works, NEMAX can co-finance the purchase instead of a bank. It looks at the property, not at your residency. It does not top up a bank mortgage.
 
+If you are buying now and need capital, apply here: https://apply.nemax-finance.com/?utm_source=email&utm_medium=email&utm_campaign=yield-map-buyer-q4&utm_content=e45-nonresident
+
 NEMAX team
 
 ## Раз в квартал, день 60+
@@ -123,6 +136,8 @@ NEMAX team
 Hi {{FirstName}},
 
 We have updated the Dubai Yield Map with the latest published figures. Some numbers have moved, and the dates are on every page: {{MapLink}}
+
+If you are buying now and need capital, apply here: https://apply.nemax-finance.com/?utm_source=email&utm_medium=email&utm_campaign=yield-map-buyer-q4&utm_content=q-update
 
 NEMAX team
 

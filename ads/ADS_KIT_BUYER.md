@@ -6,7 +6,39 @@
 
 ---
 
-## 1. Креативы
+## 0. Креативы v2, 16.11.2026: ОСНОВНОЙ НАБОР
+
+В стиле утверждённой обложки (Figma 2421:359): фото башни на весь кадр, синий градиент, две крупные цифры, подпись
+«чья это цифра», жирный вопрос, белая кнопка. Генератор `05_OPERATIONS:/sales/ads_creatives/build_ads_buyer_v2.py`,
+кадры `ads_creatives/png_buyer_v2/` (4 концепции × 4x5 / 1x1 / 9x16). Висячих слов нет (склейка при рендере),
+стоп-слова и anti-AI проверены, 0.
+
+| Кадр | Что на нём | Куда ставить |
+|---|---|---|
+| `Y1_two_numbers_FB_ONLY` | **7.1%** белая / **6.3%** коралловая: «In the listing / Bayut / September 2026» и «In the registered data / Property Monitor / September 2026», «Same area: Jumeirah Village Circle», жирно «Which number do you plan on?» | ⛔ **Только лента Facebook.** Плейсменты вручную, Instagram снять: правило «никаких процентов в IG». 🔴 Её решение, ставить ли вообще |
+| `Y2_aed_gap` | **AED 35,000** «a year. The gap between two published figures for the same AED 1.5 million apartment in Downtown Dubai.» Жирно «Which one were you shown?» | везде, процентов нет. Цифра = стр. 05 карты (5.10% / 7.43% × AED 1,5 млн = 34,950) |
+| `Y3_fourteen_three` | **14** Dubai communities / **3** published sources, side by side. «One free table. Every figure with its source and date.» Жирно «See where the numbers do not match.» | везде |
+| `Y4_purchase_check` | **8** questions, yes or no / **2** minutes before the payment date. Жирно «Is your money ready on the day?» Фото — башня с обложки Purchase Check | везде. Отдельной страницы у Purchase Check нет: ведёт на ту же /yield-map, оба файла выдаются вместе |
+
+**Тексты объявлений (≤125 / 40 / 30 знаков):**
+
+| Кадры | Primary text | Headline | Description |
+|---|---|---|---|
+| Y1, Y2, Y3 | Same Dubai area, same month. The listing shows one figure, registered data another. A free map compares 14 areas. | The Dubai Yield Map | Free: 14 areas, 3 sources |
+| Y4 | Eight yes-or-no questions before your payment date. Is your money ready for a Dubai purchase? Free, with the Dubai Yield Map. | The 2-Minute Purchase Check | Free for Dubai buyers |
+
+CTA кнопка Meta: **Download** (лид-форма) или **Learn more** (трафик на сайт).
+
+**Ссылка на сайт (если кампания на трафик, а не лид-форма), `utm_content` = кадр:**
+`https://nemax-finance.com/yield-map?utm_source=facebook&utm_medium=paid&utm_campaign=yield-map-buyer-q4&utm_content=y1-two-numbers`
+(далее `y2-aed-gap`, `y3-fourteen-three`, `y4-purchase-check`). Строки в `03_INSTAGRAM:/UTM_REGISTRY.md`.
+
+**Стартовая пара:** Y2 + Y3 на все плейсменты (оба без процентов), Y1 отдельным объявлением только в ленту Facebook,
+Y4 — второй неделей. Старый набор B01–B06 ниже остаётся для сравнения; у B01 подпись — старый хук, его не ставить.
+
+---
+
+## 1. Креативы (набор 14.10–12.11)
 
 Генератор `05_OPERATIONS:/sales/ads_creatives/build_ads_buyer.py`. Вёрстку, цвета, шрифты и склейку
 висячих слов он берёт из брокерского `build_ads.py`, поэтому две кампании не разъедутся.
@@ -14,7 +46,7 @@
 
 | Файл | Что на нём | Роль |
 |---|---|---|
-| `B01_seven` | «7» во весь кадр на синем, «reasons the yield you see is not the yield you get», фото-полоса | основной, повторяет форму брокерского победителя `01_seven` |
+| `B01_seven` | «7» во весь кадр на синем, «reasons the yield you see is not the yield you get», фото-полоса | основной, повторяет форму брокерского победителя `01_seven`. 🔴 16.11: подпись — старый хук, который она забраковала («сломаешь язык»). Перерендер по её выбору подписи, кадр не переделан |
 | `B02_listing_contract` | «The number in the listing is not the number in the contract», фото справа | тест против B01: тот же оффер, другая форма |
 | `B03_three_sources` | «3» во весь кадр: три источника, три разные доходности (12.11: было «4», колонка E&V снята) | второй кандидат в форме победителя |
 | `B04_transfer_day` | «Transfer day is set. Your money is still in another sale.» | ближе к деньгам: причина 07, где у NEMAX есть ход |
@@ -42,7 +74,8 @@
 > Dubai community. The map puts them in one table and explains why.
 
 **Headline:** `The Dubai Yield Map`
-**Description:** `Free, 12 pages`
+**Description:** `Free map for Dubai buyers`
+(16.11: было `Free, 12 pages` — её слово «зачем столько страниц», число страниц из всех текстов убрано.)
 **CTA:** Download
 
 ### B. Цифра в объявлении (к B02, B06)
@@ -74,8 +107,11 @@
 
 **Экран 1**
 > **The Dubai Yield Map**
-> Fourteen Dubai communities, three published sources, one table. And seven reasons the yield
-> you see may not be the yield you get.
+> Same Dubai area, same month. The listing shows one yield, the registered data shows another.
+> Which one will you plan on? 14 communities, 3 sources, one free table.
+
+(16.11: новый хук, как на первом экране /yield-map, но без процентов: форма открывается в Instagram.
+Было «And seven reasons the yield you see may not be the yield you get» — её слово «сломаешь язык».)
 
 **Экран 2**
 
