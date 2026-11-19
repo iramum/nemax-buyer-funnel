@@ -64,16 +64,16 @@ The main costs are these:
 - **Letting and management fees**, if an agent finds the tenant or runs the unit.
 - **Maintenance** between tenancies.
 
-Here is a simple example: a 1,000 square foot apartment in Jumeirah Village Circle. The service charge is the middle rate of the ten towers above, AED 17.74 per square foot for 2026. The size of the flat is an assumption for illustration.
+Here is a simple example: a typical one-bedroom apartment in Jumeirah Village Circle. In January to October 2026, the middle ready one-bedroom flat sold there was 812 square feet and cost AED 975,000. The service charge is the middle rate of the ten towers above, AED 17.74 per square foot for 2026.
 
 | | AED |
 |---|---|
-| Price | 1,500,000 |
-| Rent at 6.3% gross | 94,500 |
-| Service charge (1,000 sq ft × AED 17.74) | minus 17,740 |
-| One empty month | minus 7,875 |
-| Rent left before fees and repairs | 68,885 |
-| **Net yield** | **about 4.6%** |
+| Price | 975,000 |
+| Rent at 6.3% gross | 61,425 |
+| Service charge (812 sq ft × AED 17.74) | minus 14,405 |
+| One empty month | minus 5,119 |
+| Rent left before fees and repairs | 41,901 |
+| **Net yield** | **about 4.3%** |
 
 Your numbers will be different. The point is the size of the step from gross to net. To find the real service charge, look up the building in the Dubai REST app or on the Dubai Land Department website. It shows the rate approved by RERA, the Dubai property regulator.
 
@@ -148,4 +148,4 @@ Since 1 February 2025, UAE banks have been told not to include the transfer fee 
 
 *NEMAX structures asset-backed co-financing secured by real estate and does not operate as a retail bank. Funding is subject to assessment of the buyer, property and transaction and applicable UAE requirements. Yields in this article are third-party market figures published between July and November 2026: past results, not a promise, and not a NEMAX return. This article is for general information and is not a funding offer.*
 
-**Sources.** Bayut, Dubai Sales Market Report Q3 2026, as of September 2026 (updated 11.11.2026). Engel & Völkers, Residential Market Report Q3 2026, community yields as of September 2026, data from Property Monitor (27.10.2026). Downtown Dubai DLD-based figure: dataHabibi dataset, Mendeley Data, DOI 10.17632/rwnn99mdz5, version 1 (03.07.2026). Second- and third-quarter prices and rents, 2027 completions: Cavendish Maxwell and Savills Q3 2026, as reported by Khaleej Times (13.10 and 02.11.2026). Service charges: Dubai Land Department, Service Charge Index, residential rates for 2026 (general fund plus reserve fund; parking and arrears not included), ten Jumeirah Village Circle towers: Belgravia, Bloom Towers, Bloom Heights, Binghatti Gate, Dana Tower, Binghatti Gems, Eaton Place, Binghatti Luna, Belgravia Square, Cappadocia (checked 19.11.2026). Bank fee rule: UAE Central Bank, effective 1 February 2025. Rent increases on renewal: Dubai Decree No. 43 of 2013.
+**Sources.** Bayut, Dubai Sales Market Report Q3 2026, as of September 2026 (updated 11.11.2026). Engel & Völkers, Residential Market Report Q3 2026, community yields as of September 2026, data from Property Monitor (27.10.2026). Downtown Dubai DLD-based figure: dataHabibi dataset, Mendeley Data, DOI 10.17632/rwnn99mdz5, version 1 (03.07.2026). Second- and third-quarter prices and rents, 2027 completions: Cavendish Maxwell and Savills Q3 2026, as reported by Khaleej Times (13.10 and 02.11.2026). Service charges: Dubai Land Department, Service Charge Index, residential rates for 2026 (general fund plus reserve fund; parking and arrears not included), ten Jumeirah Village Circle towers: Belgravia, Bloom Towers, Bloom Heights, Binghatti Gate, Dana Tower, Binghatti Gems, Eaton Place, Binghatti Luna, Belgravia Square, Cappadocia (checked 19.11.2026). Typical one-bedroom flat: Dubai Land Department open data, ready apartment sales in Jumeirah Village Circle, January to October 2026, 1,966 one-bedroom deals, middle size and price (downloaded 12.11.2026). Bank fee rule: UAE Central Bank, effective 1 February 2025. Rent increases on renewal: Dubai Decree No. 43 of 2013.

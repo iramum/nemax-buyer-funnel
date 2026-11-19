@@ -31,3 +31,14 @@ Additional Charges в Total не входят.
 - Dana Tower: сверху Additional Charge «Unit A/C» 2.96 AED/sq ft — в Total не входит.
 - Парковка (Bloom Towers 423.58, Bloom Heights 472.18, Belgravia 1 260.28, Binghatti Gate 572.00, Eaton Place 1 462.25) — ставка в AED за место, не за фут.
 - Арреары («Service charge does not include arrears») в ставку не входят.
+
+## Типичная квартира JVC (DLD Open Data, готовые Flat, янв–окт 2026, сделка = TRANSACTION_NUMBER)
+Выгрузка 12.11.2026 (`Nemax/04_RESEARCH:/market_reports/dubai-cash-vs-mortgage-2026-11-12-sources/g1_2026-*.json`), 3 432 сделки.
+
+| Тип | Сделок | Медиана площади, sq ft (IQR) | Медиана цены, AED | AED/sq ft |
+|---|---|---|---|---|
+| Studio | 875 | 432 (404–488) | 600 000 | 1 393 |
+| 1 B/R | 1 966 | 812 (740–908) | 975 000 | 1 240 |
+| 2 B/R | 511 | 1 276 (1 156–1 494) | 1 500 000 | 1 165 |
+
+Пример в статье (19.11): 1BR 812 sq ft, AED 975 000; аренда 6,3% = 61 425; SC 812 × 17,74 = 14 405; пустой месяц 5 119; остаток 41 901 → нетто ≈ 4,3%.
