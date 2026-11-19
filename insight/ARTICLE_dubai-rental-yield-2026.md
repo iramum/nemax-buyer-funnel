@@ -14,6 +14,17 @@ Both numbers are real. They are counted from different data. If you plan on the 
 
 This guide shows rental yields by area for 2026 from two kinds of source. It explains why they differ and what to check before you commit.
 
+> **The example flat in this guide**
+>
+> | | |
+> |---|---|
+> | Apartment | One bedroom, ready, Jumeirah Village Circle |
+> | Size | 812 sq ft |
+> | Price | AED 975,000 |
+> | Service charge | AED 17.74 per sq ft a year (2026) |
+>
+> *Size and price are the middle figures for ready one-bedroom flats sold in Jumeirah Village Circle in January to October 2026, from Dubai Land Department records. The service charge is the middle 2026 rate of ten towers in the same community. Every example below uses this one flat.*
+
 [FIG 1: обложка «In the listing / In fact»]
 
 ## Dubai rental yield by area in 2026
@@ -47,11 +58,11 @@ A portal counts asking prices and asking rents from its own listings. Bayut says
 
 Registered data starts from deals that closed. The price is what the buyer paid. The rent is what the tenant agreed. It is closer to what happened, but it is older by the time it is published.
 
-Other sources measure in other ways again. In Downtown Dubai, one source published 5.10% for 2026 and a dataset built from Dubai Land Department records showed 7.43%. On an AED 1.5 million apartment, a gap of more than 2 points is about AED 35,000 of rent a year.
+Other sources measure in other ways again. In Downtown Dubai, one source published 5.10% for 2026 and a dataset built from Dubai Land Department records showed 7.43%. At the example flat's price of AED 975,000, a gap of more than 2 points is about AED 22,700 of rent a year.
 
-[FIG 2: две цифры на одной квартире, AED 106,500 и AED 94,500]
+[FIG 2: две цифры на одной квартире, AED 69,225 и AED 61,425]
 
-On the same AED 1.5 million apartment in Jumeirah Village Circle, 7.1% means AED 106,500 of rent a year. 6.3% means AED 94,500. The difference is AED 12,000 a year, before any costs.
+Now take the example flat in Jumeirah Village Circle. At 7.1%, it brings AED 69,225 of rent a year. At 6.3%, it brings AED 61,425. The difference is AED 7,800 a year, before any costs.
 
 ## Gross yield vs net yield: the costs the headline leaves out
 
@@ -64,7 +75,7 @@ The main costs are these:
 - **Letting and management fees**, if an agent finds the tenant or runs the unit.
 - **Maintenance** between tenancies.
 
-Here is a simple example: a typical one-bedroom apartment in Jumeirah Village Circle. In January to October 2026, the middle ready one-bedroom flat sold there was 812 square feet and cost AED 975,000. The service charge is the middle rate of the ten towers above, AED 17.74 per square foot for 2026.
+Here is the step from gross to net on the example flat: 812 square feet, AED 975,000, service charge AED 17.74 per square foot.
 
 | | AED |
 |---|---|
@@ -105,7 +116,7 @@ The last point is not about yield at all. It is the one that most often stops a 
 
 You have found the flat and agreed the price. Part of the money will come from somewhere else: a property you are selling, savings abroad, a business account.
 
-On transfer day, the full amount is due at once. That is your share of the price plus the fees. The Dubai Land Department transfer fee is 4% of the price, and the agency fee is usually 2%. On an AED 1.5 million flat, that is about AED 90,000 on top of the price.
+On transfer day, the full amount is due at once. That is your share of the price plus the fees. The Dubai Land Department transfer fee is 4% of the price, and the agency fee is usually 2%. On the example flat, that is about AED 58,500 on top of the price.
 
 Since 1 February 2025, UAE banks have been told not to include the transfer fee and the agency fee in the mortgage. These must be paid from your own funds. If the money from the other sale or from abroad does not arrive in time, the purchase may be delayed or fall through.
 
@@ -113,7 +124,7 @@ Since 1 February 2025, UAE banks have been told not to include the transfer fee 
 
 This is where NEMAX Finance can help. NEMAX co-finances property purchases in the UAE instead of a bank. The property is held by an ADGM SPV, a separate company set up for this one deal, and the co-financing is secured by it. NEMAX can also provide capital against a property you already own. Read more in [raising capital against your Dubai property](/article/raising-capital-against-dubai-property).
 
-Two limits matter. NEMAX does not top up a bank mortgage, because a bank down payment must come from your own funds. And the smallest amount is AED 1 million, up to 70% of the recent property value.
+Two limits matter. NEMAX does not top up a bank mortgage, because a bank down payment must come from your own funds. And the smallest amount is AED 1.2 million, up to 70% of the recent property value.
 
 If that is your situation, [apply on the NEMAX portal](https://apply.nemax-finance.com/?src=insight-yield-map&utm_source=web&utm_medium=insight&utm_campaign=yield-map-buyer-q4&utm_content=cta-apply-article). Say which property you are buying, what is holding up the money and when the payment is due.
 
