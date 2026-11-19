@@ -25,7 +25,7 @@ This guide shows rental yields by area for 2026 from two kinds of source. It exp
 >
 > *Size and price are the middle figures for the larger two-bedroom flats, the top third by price, sold in Jumeirah Village Circle in January to October 2026, from Dubai Land Department records. The service charge is the middle 2026 rate of ten towers in the same community. Every example below uses this one flat.*
 
-[FIG 1: обложка «In the listing / In fact»]
+[FIG 1: обложка УТВЕРЖДЕНА 19.11 — Figma qubi5qm5a1yioRUOaEaak9, стр. 803:2, кадр 2455:4038 (Market light, Unsplash photo 38); экспорт 2700×1518: Nemax/02_WEBSITE:/insights/covers/dubai-rental-yield-2026.png, sha256 48d8eb12…cc9c. На Webflow не загружена]
 
 ## Dubai rental yield by area in 2026
 
