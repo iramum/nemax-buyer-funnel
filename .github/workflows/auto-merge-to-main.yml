@@ -1,0 +1,82 @@
+# Bridge robot: every push to a work branch lands in main by itself.
+#
+# Cloud sessions push to claude/*, the Mac bridge pushes to mac-sync/*.
+# This merges the branch into main right away, so the next session
+# (cloud or Mac) starts from everything that was done.
+#
+# It does NOT merge, and opens an issue labelled "bridge" instead, when:
+#   - the branch and main changed the same lines (conflict), or
+#   - the branch touches .claude/settings*.json or .github/ (permissions and
+#     robots stay Irina's decision; she merges those by hand).
+# The Mac session-start reminder reads open "bridge" issues.
+
+name: Auto-merge work branches into main
+
+on:
+  push:
+    branches: ['claude/**', 'mac-sync/**']
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to merge into main'
+        required: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: auto-merge-main
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge the branch into main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ inputs.branch || github.ref_name }}
+        run: |
+          set -uo pipefail
+
+          # note <title> <body-file>: one open "bridge" issue per title, no duplicates
+          note() {
+            gh label create bridge --repo "$REPO" --color D93F0B \
+              --description "Work branch waiting for Irina" --force >/dev/null 2>&1 || true
+            found=$(gh issue list --repo "$REPO" --label bridge --state open \
+                    --search "\"$1\" in:title" --json number --jq '.[].number')
+            if [ -z "$found" ]; then
+              gh issue create --repo "$REPO" --label bridge --title "$1" --body-file "$2"
+            fi
+          }
+
+          ahead=$(gh api "repos/$REPO/compare/main...$BRANCH" --jq '.ahead_by') || exit 1
+          if [ "$ahead" = "0" ]; then echo "Already in main."; exit 0; fi
+
+          files=$(gh api --paginate "repos/$REPO/compare/main...$BRANCH?per_page=100" \
+                  --jq '.files[].filename') || exit 1
+          held=$(printf '%s\n' "$files" | grep -E '^\.claude/settings[^/]*\.json$|^\.github/' || true)
+          if [ -n "$held" ]; then
+            {
+              printf 'Branch `%s` changes files the robot never merges on its own:\n\n' "$BRANCH"
+              printf '%s\n' "$held" | sed 's/^/- /'
+              printf '\nOpen a pull request from `%s` into `main`, read these files, press Merge.\n' "$BRANCH"
+            } > body.md
+            note "Bridge: $BRANCH waits for Irina (settings or robots)" body.md
+            echo "Held for Irina:"; echo "$held"; exit 0
+          fi
+
+          out=$(gh api -X POST "repos/$REPO/merges" -f base=main -f head="$BRANCH" \
+                -f commit_message="Auto-merge $BRANCH into main" 2>&1); rc=$?
+          if [ $rc -eq 0 ]; then echo "Merged $BRANCH into main."; exit 0; fi
+          if printf '%s' "$out" | grep -qiE 'merge conflict|HTTP 409'; then
+            {
+              printf 'Branch `%s` and `main` changed the same lines, so the robot did not merge it.\n' "$BRANCH"
+              printf 'Open a pull request from `%s` into `main` and resolve the conflict (or ask a session to).\n' "$BRANCH"
+            } > body.md
+            note "Bridge: $BRANCH conflicts with main" body.md
+            echo "Conflict, issue opened."; exit 0
+          fi
+          echo "$out"; exit 1
